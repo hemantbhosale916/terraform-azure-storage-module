@@ -15,6 +15,6 @@ resource "azurerm_storage_account" "this" {
   account_replication_type = "LRS"
 
   tags = {
-    Name = "example-storage-account"
+    Name = "example-storage-account-v2"
   }
 }
